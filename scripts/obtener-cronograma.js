@@ -283,6 +283,7 @@ const main = () => {
         console.log(a.internal.pageSize.getWidth()); //14
         console.log(a.internal.pageSize.getHeight()); //8.5
         
+        
         await a.text("R 05/1213", 0.5, 8.1);
         await a.text("F-DC-16", 10, 8.1);
         
